@@ -1,0 +1,36 @@
+{
+  "name": "imagerecognition",
+  "version": "1.0.0",
+  "description": "Project in image recognition and classification",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "synaptic": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "6.10.2",
+    "npm": "3.10.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mawnz/Image-recognition-classification-project.git"
+  },
+  "keywords": [
+    "image",
+    "recognition",
+    "classification"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mawnz/Image-recognition-classification-project/issues"
+  },
+  "homepage": "https://github.com/Mawnz/Image-recognition-classification-project#readme"
+}

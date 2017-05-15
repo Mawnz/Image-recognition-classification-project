@@ -2,6 +2,7 @@
 var activation = function(val){
 	return val/2;
 }
+//Test with images
 
 //--Building network--
 

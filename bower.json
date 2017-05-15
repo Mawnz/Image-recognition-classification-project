@@ -1,0 +1,11 @@
+{
+  "name": "imagerecognition",
+  "description": "Project in image recognition and classification",
+  "version": "1.0.0",
+  "homepage": "null",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "synaptic": "^1.0.10"
+  }
+}

@@ -7,6 +7,7 @@
     "express": "^4.15.2",
     "mathjs": "^3.13.1",
     "plotly": "^1.0.6",
+    "processing-js": "^1.6.6",
     "synaptic": "^1.0.10"
   },
   "devDependencies": {},

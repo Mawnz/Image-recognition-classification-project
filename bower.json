@@ -6,6 +6,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "synaptic": "^1.0.10"
+    "synaptic": "^1.0.10",
+    "plotlyjs": "plotly#^1.18.1",
+    "mathjs": "^3.13.1"
   }
 }

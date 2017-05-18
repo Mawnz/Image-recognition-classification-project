@@ -14,19 +14,26 @@
     <script src = "bower_components/mathjs/dist/math.js"></script>
     <!-- ProcessingJS for convolution http://processingjs.org/ -->
     <script src = "bower_components/processing.js/processing.js"></script>
+    <!-- JQuery Package -->
+    <script src = "bower_components/jquery/dist/jquery.js"></script>
+    <!-- Caman Image processing Package -->
+    <script src = "bower_components/caman/dist/caman.js"></script>
+
 
     <script src = "js/test.js"> </script>
 
   </head>
   <body>
     <div style = "display:flex; align-items: center">
-        <canvas id = "input" width = "200" height = "200">
-
-        </canvas>
-
-        <canvas id = "output" width = "200" height = "200">
-
-        </canvas>
+      <canvas id = "input" width = "100" height = "100">
+      </canvas>
+      
+      <button id = "picBtn" onClick = "start()">Learn</button>
+      <button id = "stop" onClick = "stop()">Stop</button>
+      <canvas id = "output" width = "100" height = "100">
+        Canvas not supported by browser
+      </canvas>
+      <span id = "counter">0</span>
     </div>
   </body>
 </html>

@@ -19,9 +19,6 @@
     <!-- Caman Image processing Package -->
     <script src = "bower_components/caman/dist/caman.js"></script>
 
-
-    <script src = "js/test.js"> </script>
-
   </head>
   <body>
     <div style = "display:flex; align-items: center">
@@ -35,6 +32,15 @@
       </canvas>
       <span id = "counter">0</span>
     </div>
+    <br>
+    <button id = "go" onClick = "go()">Go</button>
+
+    <canvas onmousemove="getMousepos(event)" style = "border-style:solid" id = "nn" width = "500" height = "500"></canvas>
+
+
+    <script src = "js/test.js"> </script>
+    <script src = "js/neural.js"> </script>
+
   </body>
 </html>
 

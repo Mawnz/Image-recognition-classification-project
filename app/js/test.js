@@ -8,17 +8,15 @@ var training = false;
 //start with input layer of 2 pixelcoordinates
 var input = new synaptic.Layer(2);
 //hidden layers
-var hidden1 = new synaptic.Layer(15);
-var hidden2 = new synaptic.Layer(15);
-var hidden3 = new synaptic.Layer(15);
-var hidden4 = new synaptic.Layer(15);
-var hidden5 = new synaptic.Layer(15);
+var hidden1 = new synaptic.Layer(10);
+
 //output yields pixelvalue
 var output = new synaptic.Layer(1);
 
 //projections
 input.project(hidden1);
 hidden1.project(output);
+
 
 //make the network
 var network = new synaptic.Network({

@@ -15,7 +15,7 @@ var context = canvas.getContext("2d");
 //circle object that vill be put on canvas
 //var circle = {x: mPos.x, y: mPos.y, radius: 10, start: 0, end: 2*Math.PI};
 var circles = [];
-for(var i = 0; i < 5; i ++){
+for(var i = 0; i < 1; i ++){
 	circles.push({x: mPos.x, y: mPos.y, radius: radius - i, start: 0, end: 2*Math.PI})
 }
 var rect = canvas.getBoundingClientRect();
